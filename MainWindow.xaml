@@ -1,0 +1,24 @@
+﻿<Window x:Class="ProejtoFinalPEOOFabricantedeVeiculos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProejtoFinalPEOOFabricantedeVeiculos"
+        mc:Ignorable="d"
+        Title="Fabricante de Veiculos" Height="200" Width="300">
+    <Grid>
+        <Menu>
+            <MenuItem Header="Cadastros">
+                <MenuItem Header="Veiculos" Click="Veiculo_Click" />
+                <MenuItem Header="Modelos" Click="Modelo_Click" />
+                <MenuItem Header="Fabricante" Click="Fabricante_Click" />
+            </MenuItem>
+            <MenuItem Header="Operações">
+                <MenuItem Header="Cadastro Modelo no Veículo" Click="CadastroVeiculo_Click" />
+                <MenuItem Header="Cadastro Veiculo Fabricante" Click="CadastrodeModelo_Click" />
+                <MenuItem Header=" Lista de Veiculos e  seus Fabricantes" Click="Registrados_Click" />
+                <MenuItem Header=" Lista de Veiculos e seus Modelos" Click="Registrados1_Click" />
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

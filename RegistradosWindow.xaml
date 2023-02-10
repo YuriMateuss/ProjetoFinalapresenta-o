@@ -1,0 +1,14 @@
+﻿<Window x:Class="ProejtoFinalPEOOFabricantedeVeiculos.RegistradosWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProejtoFinalPEOOFabricantedeVeiculos"
+        mc:Ignorable="d"
+         Title="RegistradosWindow" Height="270" Width="400">
+    <Grid>
+        <ListBox Name="listFabricantes" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" Width="370" Height="90" SelectionChanged="listfabricantes_SelectionChanged"/>
+        <ListBox Name="listVeiculos" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,110,0,0" Width="370" Height="90"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

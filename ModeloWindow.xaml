@@ -1,0 +1,22 @@
+﻿<Window x:Class="ProejtoFinalPEOOFabricantedeVeiculos.ModeloWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProejtoFinalPEOOFabricantedeVeiculos"
+        mc:Ignorable="d"
+        Title="Cadastro de Modelos" Height="270" Width="400">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Id" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="55,10,0,0" Text="Modelo" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="160,10,0,0" Text="Preço" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox Name="txtid" HorizontalAlignment="Left" Margin="10,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <TextBox Name="txtmodelos" HorizontalAlignment="Left" Margin="55,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <TextBox Name="txtpreco" HorizontalAlignment="Left" Margin="160,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="52,53,0,0" VerticalAlignment="Top"/>
+        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="89,53,0,0" VerticalAlignment="Top"/>
+        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="144,53,0,0" VerticalAlignment="Top"/>
+        <ListBox Name="listModelos" Margin="10,80,15,15" SelectionChanged="listModelos1_SelectionChanged" />
+    </Grid>
+</Window>

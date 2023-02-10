@@ -1,0 +1,20 @@
+﻿<Window x:Class="ProejtoFinalPEOOFabricantedeVeiculos.FabricanteWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProejtoFinalPEOOFabricantedeVeiculos"
+        mc:Ignorable="d"
+       Title="Fabricante" Height="239" Width="310">
+    <Grid Margin="0,0,0,6">
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Id" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="55,10,0,0" Text="Fabricante" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox Name="txtidFabricante" HorizontalAlignment="Left" Margin="10,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <TextBox Name="txtfabricante1" HorizontalAlignment="Left" Margin="55,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <Button Click="Atualizarab_Click" Content="Atualizar" HorizontalAlignment="Left" Margin="55,53,0,0" VerticalAlignment="Top"/>
+        <Button Click="Listarab_Click" Content="Listar" HorizontalAlignment="Left" Margin="121,53,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="excluir" Click="Excluir_Click" Content="Excluir" HorizontalAlignment="Left" Margin="169,53,0,0" VerticalAlignment="Top"/>
+        <ListBox Name="listFabricantesn" Margin="10,80,15,15" SelectionChanged="ListBox1_SelectionChanged" />
+        <Button Click="Inserimento_Click" Content="Inserir" HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
